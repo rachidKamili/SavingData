@@ -36,4 +36,49 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <!--SGLite database-->
+    <TextView
+        android:id="@+id/tvDatabase"
+        android:text="SGLite database ===== "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:hint="First Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:hint="Last Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etGender"
+        android:hint="Gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="handlingSGLite"
+        android:id="@+id/btnSavePerson"
+        android:text="Save person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="handlingSGLite"
+        android:id="@+id/btnRetrievePerson"
+        android:text="Get All Persons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tvAllPersons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
